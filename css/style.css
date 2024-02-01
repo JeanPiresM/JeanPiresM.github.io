@@ -64,9 +64,9 @@ body {
     "texto";
   gap: 20px;
   color: white;
-}
+ }
 
-/* .conteudoPrin::before {
+.conteudoPrin::before {
   content: "";
   position: fixed;
   top: 0;
@@ -75,7 +75,7 @@ body {
   height: 100%;
   z-index: -1;
   backdrop-filter: blur(10px);
-} */
+} 
 
 .titulo {
   grid-area: titulo;
@@ -85,14 +85,16 @@ body {
 .containerFoto {
   border: 2px solid rgb(230, 52, 98);
   width: 250px;
+  height: 250px;
   grid-area: foto;
   border-radius: 500px;
   justify-self: center;
 }
 
 .foto {
-  max-width: 100%;
-  border-radius: 500px;
+  width: 100%;
+  height: 250px;
+  border-radius: 50%;
   grid-area: foto;
 }
 

@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+body {
+  background-size: cover;
+ background-image: url(../img/imagemDeFundo.jpg);
+}
+
 .cabecalho {
   background: rgba(12, 24, 33, 0.4);
   backdrop-filter: blur(10px);
@@ -76,4 +81,9 @@ body {
   height: 100%;
   z-index: -1;
   backdrop-filter: blur(10px);
+}
+
+body {
+  background-size: cover;
+ background-image: url(../img/imagemDeFundo.jpg);
 }
