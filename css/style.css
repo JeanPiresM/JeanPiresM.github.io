@@ -7,7 +7,6 @@
 
 .cabecalho {
   background: rgba(12, 24, 33, 0.4);
-  backdrop-filter: blur(10px);
   display: flex;
   justify-content: center;
   height: 60px;
@@ -50,7 +49,7 @@
 
 body {
   background-size: cover;
- background: black;
+ background-image: url(../img/imagemDeFundo.jpg);
 }
 
 .conteudoPrin {
@@ -67,7 +66,7 @@ body {
   color: white;
 }
 
-.conteudoPrin::before {
+/* .conteudoPrin::before {
   content: "";
   position: fixed;
   top: 0;
@@ -76,7 +75,7 @@ body {
   height: 100%;
   z-index: -1;
   backdrop-filter: blur(10px);
-}
+} */
 
 .titulo {
   grid-area: titulo;
