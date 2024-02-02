@@ -25,17 +25,16 @@
 }
 
 .menu-lista li {
-  background: #0042FF;
+  background: #0042ff;
   padding: 15px;
   border-radius: 20px;
   position: relative;
   width: 300px;
 }
 
-.menu-lista li:hover{
-  background: #113A8C;
+.menu-lista li:hover {
+  background: #113a8c;
 }
-
 
 li a {
   color: white;
@@ -45,7 +44,7 @@ li a {
   padding: 5px;
   font-size: 1.3rem;
 }
-li a:hover{
+li a:hover {
   color: #0ef;
 }
 
@@ -60,10 +59,11 @@ li a::before {
 
 body {
   background-size: cover;
- background-image: url(../img/v1016-b-09.jpg);
+  background-image: url(../img/v1016-b-09.jpg);
 }
 
 .conteudoPrin {
+  text-align: center;
   margin: auto;
   display: grid;
   justify-content: center;
@@ -75,8 +75,7 @@ body {
     "texto";
   gap: 20px;
   color: white;
- }
-
+}
 
 .titulo {
   grid-area: titulo;
@@ -84,7 +83,7 @@ body {
 }
 
 .containerFoto {
-  border: 4px solid #0042FF;
+  border: 4px solid #0042ff;
   width: 250px;
   height: 250px;
   grid-area: foto;
@@ -99,7 +98,26 @@ body {
   grid-area: foto;
 }
 
-p {
+.paragrafo {
+  border: 2px solid #0042ff;
+  width: 650px;
+  margin: auto;
   grid-area: texto;
-  font-size: 30px;
+  font-size: 1.1rem;
+}
+
+.rodape {
+  margin-top: 50px;
+  background: #0b0b0d85;
+}
+
+.rodape p {
+}
+
+.texto_pequeno {
+  font-size: 0.9rem;
+  color: rgb(71, 90, 92);
+}
+@media screen {
+  
 }

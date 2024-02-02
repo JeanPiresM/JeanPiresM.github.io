@@ -25,15 +25,15 @@
 }
 
 .menu-lista li {
-  background: #0042FF;
+  background: #0042ff;
   padding: 15px;
   border-radius: 20px;
   position: relative;
   width: 300px;
 }
 
-.menu-lista li:hover{
-  background: #113A8C;
+.menu-lista li:hover {
+  background: #113a8c;
 }
 
 li a {
@@ -44,7 +44,7 @@ li a {
   padding: 5px;
   font-size: 1.3rem;
 }
-li a:hover{
+li a:hover {
   color: #0ef;
 }
 
@@ -58,45 +58,44 @@ li a::before {
 }
 body {
   background-size: cover;
- background-image: url(../img/v1016-b-09.jpg);
+  background-image: url(../img/v1016-b-09.jpg);
 }
-
 
 .conteudoPrin {
   margin: auto;
   display: grid;
   justify-content: center;
   padding-top: 90px;
-  grid-template-rows: repeat(5, auto);
   grid-template-areas:
     "linkedin"
-    "facebook"
     "github"
     "ig"
-    "email"
-    ;
-  gap: 30px 20px;
+    "email";
+  gap: 40px;
   color: white;
-
 }
 
-.linkedin{
+.WhatsApp{
+width: 100px;
+height: 100px;
+margin: auto;
+}
+
+.WhatsApp img{
+  width: 100%;
+}
+
+.linkedin {
   width: 100px;
   height: 100px;
+  margin: auto;
+}
+
+.linkedin img {
   grid-area: linkedin;
-  margin: auto;
 }
 
-
-.facebook{
-  width: 100px;
-  height: 100px;
-  grid-area: facebook;
-  margin: auto;
-}
-
-
-.github{
+.github {
   width: 100px;
   height: 100px;
   background: white;
@@ -104,29 +103,34 @@ body {
   margin: auto;
 }
 
-
-.ig{
+.ig {
   width: 130px;
   height: 100px;
   grid-area: ig;
   margin: auto;
 }
 
-.ig img{
+.ig img {
   width: 130px;
   height: 100px;
 }
 
-
-.email{
+.email {
   width: 130px;
   height: 100px;
   grid-area: email;
   margin: auto;
-
 }
 
-.email img{
+.email img {
   width: 130px;
   height: 100px;
+}
+
+a {
+  color: #0ef;
+}
+
+a:active {
+  color: #113a8c;
 }
