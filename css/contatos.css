@@ -36,7 +36,6 @@
   background: #113A8C;
 }
 
-
 li a {
   color: white;
 }
@@ -57,49 +56,77 @@ li a::before {
   bottom: -10px;
   left: -10px;
 }
-
 body {
   background-size: cover;
  background-image: url(../img/v1016-b-09.jpg);
 }
 
+
 .conteudoPrin {
   margin: auto;
   display: grid;
   justify-content: center;
-  padding-top: 70px;
-  grid-template-rows: repeat(3, auto);
+  padding-top: 90px;
+  grid-template-rows: repeat(5, auto);
   grid-template-areas:
-    "titulo"
-    "foto"
-    "texto";
-  gap: 20px;
+    "linkedin"
+    "facebook"
+    "github"
+    "ig"
+    "email"
+    ;
+  gap: 30px 20px;
   color: white;
- }
 
-
-.titulo {
-  grid-area: titulo;
-  font-size: 40px;
 }
 
-.containerFoto {
-  border: 4px solid #0042FF;
-  width: 250px;
-  height: 250px;
-  grid-area: foto;
-  border-radius: 500px;
-  justify-self: center;
+.linkedin{
+  width: 100px;
+  height: 100px;
+  grid-area: linkedin;
+  margin: auto;
 }
 
-.foto {
-  width: 100%;
-  height: 250px;
-  border-radius: 50%;
-  grid-area: foto;
+
+.facebook{
+  width: 100px;
+  height: 100px;
+  grid-area: facebook;
+  margin: auto;
 }
 
-p {
-  grid-area: texto;
-  font-size: 30px;
+
+.github{
+  width: 100px;
+  height: 100px;
+  background: white;
+  grid-area: github;
+  margin: auto;
+}
+
+
+.ig{
+  width: 130px;
+  height: 100px;
+  grid-area: ig;
+  margin: auto;
+}
+
+.ig img{
+  width: 130px;
+  height: 100px;
+}
+
+
+.email{
+  width: 130px;
+  height: 100px;
+  grid-area: email;
+  margin: auto;
+
+}
+
+.email img{
+  width: 130px;
+  height: 100px;
 }
